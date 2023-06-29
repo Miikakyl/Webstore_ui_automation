@@ -1,6 +1,6 @@
-from booking import Booking
+from BuyItems import BuyItems
 
-with Booking() as test_samsung:
+with BuyItems() as test_samsung:
     username = "testikayttaja7"
     password = "salasana"
 
@@ -10,7 +10,7 @@ with Booking() as test_samsung:
     test_samsung.select_item("Samsung galaxy s6")
     test_samsung.purchase_item(["Miika","Suomi","Oulu","445 534 434 54","12","2033"])
 
-with Booking() as test_nexus:
+with BuyItems() as test_nexus:
     username = "testikayttaja8"
     password = "salasana"
 
