@@ -1,7 +1,7 @@
 from BuyItems import BuyItems
 
 with BuyItems() as test_samsung:
-    username = "testikayttaja7"
+    username = "testikayttaja9"
     password = "salasana"
 
     test_samsung.land_first_page()
@@ -11,7 +11,7 @@ with BuyItems() as test_samsung:
     test_samsung.purchase_item(["Miika","Suomi","Oulu","445 534 434 54","12","2033"])
 
 with BuyItems() as test_nexus:
-    username = "testikayttaja8"
+    username = "testikayttaja10"
     password = "salasana"
 
     test_nexus.land_first_page()
